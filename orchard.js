@@ -51,8 +51,35 @@ const pinkPrice = .55
 
 // CODE HERE
 
+  let sumFuji = 0
+
+  for (let i = 0; i < fujiAcres.length; i += 1) {
+    sumFuji += fujiAcres[i];
+  }
+
+  console.log(sumFuji)
 
 
+  let sumGala = 0
+
+  for (let i = 0; i < galaAcres.length; i += 1) {
+    sumGala += galaAcres[i];
+  }
+
+  console.log(sumGala)
+
+
+  let sumPink = 0
+
+  for (let i = 0; i < pinkAcres.length; i += 1) {
+    sumPink += pinkAcres[i];
+  }
+
+  console.log(sumPink)
+
+  let totalAcres = sumPink + sumGala + sumFuji
+
+  console.log (totalAcres)
 
 
 // PROBLEM 2
