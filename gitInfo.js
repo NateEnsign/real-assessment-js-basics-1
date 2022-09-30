@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = 'git is a program that allows you to save changes to a repository and creates snapshots of that respository over time.'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = 'GitHub is a website where you can push get files to be stored on the web. It can be and is often used as a collaboritve enviornment to work on projects with other team members.'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+const gitInitDefinition = 'initialize a local repository right here in this folder'
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+const gitCloneDefinition = 'Git clone is used to copy an existing Git repository into a new local directory.'
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = 'tell me about this repo'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,10 @@
 
 //CODE HERE
 
+const gitAddDefinition = 'This states a repo prior to the commit.'
+
+const gitAddCodd = "git add ."
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +79,10 @@
 
 //CODE HERE
 
+const gitCommitDefinition = 'create a snapshot of the files Im tracking '
+
+const gitCommitCode = 'git commit -m "..."'
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +91,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = 'This pushes the repo to a desired location such as GitHub'
