@@ -96,6 +96,10 @@ const pinkPrice = .55
 
 // CODE HERE
 
+let averageDailyAcres = totalAcres / 7
+
+console.log(averageDailyAcres)
+
 
 
 
